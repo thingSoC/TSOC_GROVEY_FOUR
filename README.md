@@ -48,14 +48,11 @@ Then select the hex (cyacd) file that you wish to program, and the COM: port of 
 The TSOC_GROVEY_FOUR can also drive other devices, such as Servos, Motors, Relays and more.
 
 
-[![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR_servo.png?raw=true)TSOC_GROVEY_FOUR with Servo](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
-
-
 ---------------------------------------
 
 ## TSOC_GROVEY_FOUR Status <a name="TSOC_GROVEY_FOUR_status"/>
 
-**08/10/2016:** 
+**09/02/2016:** 
 Revision 1.0 - Initial Layout 
 
 
