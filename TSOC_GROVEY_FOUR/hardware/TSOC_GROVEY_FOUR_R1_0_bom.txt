@@ -1,0 +1,14 @@
+Partlist exported from U:/PatternAgents/eagle/TSOC_Modules/TSOC_GROVEY/TSOC_GROVEY/TSOC_GROVEY.sch at 8/27/2016 3:07:50 PM  Revision 2.0                                                                                  
+
+Qty Value             Device                          Package           Parts                       Description 
+1   JMP               JMP-2-PTH                       JMP-2-PTH-2.54    J1                          Jumper
+1   Red               LED0603                         LED-0603          D1                          LEDs
+3   0.1uF             CAP0603-CAP                     0603-CAP          C3, C6, C8                  Capacitor
+1   10K               RESISTOR_SFE0603-RES            0603-RES          R2                          Resistor
+1   1K                RESISTOR_SFE0603-RES            0603-RES          R10                         Resistor                                                                  
+7   1uF               CAP0603-CAP                     0603-CAP          C1, C2, C4, C5, C7, C9, C10 Capacitor
+6   2k2               RESISTOR0603-RES                0603-RES          R1, R3, R4, R5, R8, R9      Resistor                                                                  
+4   4P-2.0-90D        GROVE-CONNECTOR-DIP-90D(4P-2.0) HW4-2.0-90D       J3, J4, J5, J6              320110034
+1   CY8C4245PVI-482   CY8C4245PVI-482                 SSOP28            U1                          Cypress PSoC® 4
+2   DNP               RESISTOR0603-RES                0603-RES          R6, R7                      Resistor                                                                  
+1   JTAG-ISSPMIN      JTAG-ISSPMIN                    PSOC_JTAG_MINSILK J2                          JTAG-ISSP Connector
