@@ -86,9 +86,14 @@ The TSOC_GROVEY_FOUR can also drive other devices, such as Servos, Motors, Relay
 
 ## TSOC_GROVEY_FOUR Status <a name="TSOC_GROVEY_FOUR_status"/>
 
-**09/02/2016:** 
-Revision 1.0 - Initial Layout 
+**08/15/2016:** 
+Revision 1.4 - Initial Layout 
 
+**08/20/2016:**
+Revision 2.0 - Alpha version
+
+**09/02/2016:**
+Revision 3.0 - (WIP) add FTDI, JTAG, and 3.3V/5V voltage select jumper
 
 ---------------------------------------
 ## TSOC_GROVEY_FOUR Model Images
