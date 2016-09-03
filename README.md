@@ -6,7 +6,9 @@ and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-
 Modules all at the same time, either standalone, or with any Processor or Radio module.
 This gives you maximum flexiblity for parts selection and reuse. 
 
-THe thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
+The **TSOC_GROVEY_FOUR** uses a Cypress Semiconductor PsoC4, a CY8C4245PVI-482 model in a 28 pin TSSOP package, for easy hand soldering.
+
+The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
 
 [![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR.png?raw=true)TSOC_GROVEY_FOUR](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
 
