@@ -37,7 +37,8 @@ Or use a soil moisture sensor to control when your plants get watered. Add an OL
 
 ## TSOC_GROVEY_FOUR Mikrobus "Click" Application Pictures
 
-The **TSOC_GROVEY_FOUR** is also compatibile with most [Mikrobus](http://www.mikroe.com/mikrobus/) peripherals.
+The **TSOC_GROVEY_FOUR** is also compatibile with most [Mikrobus](http://www.mikroe.com/mikrobus/) "Click" peripherals.
+now you can mix-and-match Click System peripherals with Grove System peripherals at the same time!
 
 [![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR_with_Click.png?raw=true)*TSOC_GROVEY_FOUR*](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
 
