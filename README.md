@@ -1,8 +1,15 @@
 # TSOC_GROVEY_FOUR
 
 
+The **TSOC_GROVEY_FOUR** allows you to connect [thingSoC](http://thingsoc.github.io/), [Mikrobus](http://www.mikroe.com/mikrobus/), 
+and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) 
+Modules all at the same time, using the Arduino Development environment, with any processor module.
+This gives you maximum flexiblity for parts selection and reuse. 
 
-[![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/TSOC_GROVEY_FOUR_iso.png?raw=true)TSOC_GROVEY_FOUR](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
+THe thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
+
+[![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR.png?raw=true)TSOC_GROVEY_FOUR](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
+
 
 **thingSoC Reference Designs** are example thingSoC implementations that implement
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.
@@ -12,9 +19,10 @@ These reference designs can serve as starting templates for user designs.
 
 ## TSOC_GROVEY_FOUR Application Pictures
 
+Add the thingSoC GROVEY_WIFI for wireless measurement and control.
 
 
-[![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/TSOC_GROVEY_FOUR_top.png?raw=true)*TSOC_GROVEY_FOUR*](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
+[![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR_moist_wifi.png?raw=true)*TSOC_GROVEY_FOUR*](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
 
 ---------------------------------------
 
