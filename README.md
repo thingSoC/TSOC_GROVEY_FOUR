@@ -19,7 +19,7 @@ These reference designs can serve as starting templates for user designs.
 
 ---------------------------------------
 
-## TSOC_GROVEY_FOUR Application Pictures
+## TSOC_GROVEY_FOUR Grove Application Pictures
 
 Add the thingSoC GROVEY_WIFI for wireless measurement and control. This example uses a knob (potentiometer) for input, a water level sensor, a buzzer,  and a pump.
 If the system detects water in the basement, it can sound the buzzer and start the pump (as an example...) 
@@ -27,9 +27,17 @@ If the system detects water in the basement, it can sound the buzzer and start t
 
 [![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR_moist_wifi.png?raw=true)*TSOC_GROVEY_FOUR*](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
 
-Or use a soil moisture sensor to control when your plants get watered.
+Or use a soil moisture sensor to control when your plants get watered. Add an OLED display to get you measusements.
 
 [![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR_watering.png?raw=true)*TSOC_GROVEY_FOUR*](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
+
+---------------------------------------
+
+## TSOC_GROVEY_FOUR Mikrobus "Click" Application Pictures
+
+The **TSOC_GROVEY_FOUR** is also compatibile with most [Mikrobus](http://www.mikroe.com/mikrobus/) peripherals.
+
+[![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR_with_Click.png?raw=true)*TSOC_GROVEY_FOUR*](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
 
 
 ---------------------------------------
