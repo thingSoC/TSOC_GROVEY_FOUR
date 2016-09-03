@@ -9,6 +9,8 @@ This gives you maximum flexiblity for parts selection and reuse.
 The **TSOC_GROVEY_FOUR** uses a Cypress Semiconductor PsoC4, a CY8C4245PVI-482 model in a 28 pin TSSOP package, for easy hand soldering.
 
 The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
+thingSoC boards are similar in size to most break-out-boards (BOBs), but feature a standardized stacking pinout, as well as an I2C metadata store (EEPROM)
+to indicate what peripherals are installed.
 
 [![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR.png?raw=true)TSOC_GROVEY_FOUR](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
 
