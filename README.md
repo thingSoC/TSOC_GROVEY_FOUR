@@ -48,7 +48,9 @@ now you can mix-and-match Click System peripherals with Grove System peripherals
 ## TSOC_GROVEY_FOUR Arduino Sketch Examples
 
 Under the "examples" directory are several Arduino IDE examples for using the TSOC_GROVEY_FOUR board with Arduino IDE.
-Using the Arduino "Wire" library for I2C communications, it is simple to control the TSOC_GROVEY_FOUR
+Using the Arduino "Wire" library for I2C communications, or Arduino "Serial" library for UART communications,
+it is simple to control the TSOC_GROVEY_FOUR. Although the TSOC_GROVEY_FOUR uses programmable hardware, the device comes
+preprogrammed to act as either an I2C I/O Expander, or a UART command line controlled peripheral. T
 
 ```c
  
@@ -60,7 +62,10 @@ Using the Arduino "Wire" library for I2C communications, it is simple to control
 ---------------------------------------
 ## TSOC_GROVEY_FOUR Programming
 
-You can reprogram the board using any Grove UART adapter :
+The included UART bootloader allows you to reprogram the PSoC with your own programs,
+or to chose from a variety of "recipe" programs available for many applications.
+
+You can reprogram the board using any FTDI USB to UART, or any Grove UART adapter :
 
 In order to reprogram the Cypress PSoC4 device, you will need to download and install the PSoC Creator tool, which includes a serial bootloader host application.
 
