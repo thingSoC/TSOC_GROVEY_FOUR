@@ -21,10 +21,16 @@ These reference designs can serve as starting templates for user designs.
 
 ## TSOC_GROVEY_FOUR Application Pictures
 
-Add the thingSoC GROVEY_WIFI for wireless measurement and control.
+Add the thingSoC GROVEY_WIFI for wireless measurement and control. This example uses a knob (potentiometer) for input, a water level sensor, a buzzer,  and a pump.
+If the system detects water in the basement, it can sound the buzzer and start the pump (as an example...) 
 
 
 [![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR_moist_wifi.png?raw=true)*TSOC_GROVEY_FOUR*](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
+
+Or use a soil moisture sensor to control when your plants get watered.
+
+[![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR_moist_wifi.png?raw=true)*TSOC_GROVEY_FOUR*](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
+
 
 ---------------------------------------
 
