@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -436,16 +436,54 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
 <wire x1="-15.24" y1="17.018" x2="-15.24" y2="-23.876" width="0.1524" layer="20"/>
-<wire x1="-13.462" y1="-25.654" x2="15.24" y2="-25.654" width="0.1524" layer="20"/>
-<wire x1="15.24" y1="-25.654" x2="15.24" y2="17.018" width="0.1524" layer="20"/>
+<wire x1="-13.462" y1="-25.654" x2="13.462" y2="-25.654" width="0.1524" layer="20"/>
+<wire x1="15.24" y1="-23.876" x2="15.24" y2="17.018" width="0.1524" layer="20"/>
 <hole x="13.335" y="16.891" drill="2"/>
 <hole x="-13.335" y="16.891" drill="2"/>
 <wire x1="13.462" y1="18.796" x2="-13.462" y2="18.796" width="0.1524" layer="20"/>
 <wire x1="-15.24" y1="-23.876" x2="-13.462" y2="-25.654" width="0.1524" layer="20" curve="90"/>
+<wire x1="13.462" y1="-25.654" x2="15.24" y2="-23.876" width="0.1524" layer="20" curve="90"/>
 <wire x1="15.24" y1="17.018" x2="13.462" y2="18.796" width="0.1524" layer="20" curve="90"/>
 <wire x1="-13.462" y1="18.796" x2="-15.24" y2="17.018" width="0.1524" layer="20" curve="90"/>
 <hole x="13.335" y="-23.749" drill="2"/>
 <hole x="-13.335" y="-23.749" drill="2"/>
+</package>
+<package name="TS0C-BB-BRD-DBL-DIM">
+<description>&lt;b&gt;thingSoC "Double" PCB Board Outline &amp; Holes&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.thingsoc.com
+&lt;br&gt;
+Github : https://github.com/thingsoc
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="-15.24" y1="17.018" x2="-15.24" y2="-23.876" width="0.1524" layer="20"/>
+<wire x1="-13.462" y1="-25.654" x2="13.462" y2="-25.654" width="0.1524" layer="20"/>
+<wire x1="15.24" y1="-23.876" x2="15.24" y2="17.018" width="0.1524" layer="20"/>
+<hole x="13.335" y="16.891" drill="2"/>
+<hole x="-13.335" y="16.891" drill="2"/>
+<wire x1="13.462" y1="18.796" x2="-13.462" y2="18.796" width="0.1524" layer="20"/>
+<wire x1="-15.24" y1="-23.876" x2="-13.462" y2="-25.654" width="0.1524" layer="20" curve="90"/>
+<wire x1="13.462" y1="-25.654" x2="15.24" y2="-23.876" width="0.1524" layer="20" curve="90"/>
+<wire x1="15.24" y1="17.018" x2="13.462" y2="18.796" width="0.1524" layer="20" curve="90"/>
+<wire x1="-13.462" y1="18.796" x2="-15.24" y2="17.018" width="0.1524" layer="20" curve="90"/>
+<hole x="13.335" y="-23.749" drill="2"/>
+<hole x="-13.335" y="-23.749" drill="2"/>
+<wire x1="15.24" y1="21.082" x2="15.24" y2="61.976" width="0.1524" layer="20"/>
+<wire x1="13.462" y1="63.754" x2="-13.462" y2="63.754" width="0.1524" layer="20"/>
+<wire x1="-15.24" y1="61.976" x2="-15.24" y2="21.082" width="0.1524" layer="20"/>
+<hole x="-13.335" y="21.209" drill="2"/>
+<hole x="13.335" y="21.209" drill="2"/>
+<wire x1="-13.462" y1="19.304" x2="13.462" y2="19.304" width="0.1524" layer="20"/>
+<wire x1="15.24" y1="61.976" x2="13.462" y2="63.754" width="0.1524" layer="20" curve="90"/>
+<wire x1="-13.462" y1="63.754" x2="-15.24" y2="61.976" width="0.1524" layer="20" curve="90"/>
+<wire x1="-15.24" y1="21.082" x2="-13.462" y2="19.304" width="0.1524" layer="20" curve="90"/>
+<wire x1="13.462" y1="19.304" x2="15.24" y2="21.082" width="0.1524" layer="20" curve="90"/>
+<hole x="-13.335" y="61.849" drill="2"/>
+<hole x="13.335" y="61.849" drill="2"/>
 </package>
 <package name="TSOC-EM-BRD">
 <description>&lt;b&gt;thingSoC "Single" PCB Board Outline For Embedded Modules&lt;/b&gt;
@@ -7593,61 +7631,6 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="10.14" y1="9.74" x2="10.14" y2="12.8" width="0.127" layer="21"/>
 <wire x1="-12.72" y1="9.74" x2="-12.72" y2="12.8" width="0.127" layer="21"/>
 </package>
-<package name="TS0C-BB-BRD-DBL-DIM">
-<description>&lt;b&gt;thingSoC "Double" PCB Board Outline &amp; Holes&lt;/b&gt;
-&lt;p&gt;
-Source LBR : http://www.thingsoc.com
-&lt;br&gt;
-Github : https://github.com/thingsoc
-&lt;br&gt;
-License : http://creativecommons.org/licenses/by-sa/4.0/
-(Creative Commons 4.0)
-&lt;p&gt;
-THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
-&lt;P&gt;</description>
-<wire x1="-15.24" y1="61.976" x2="-15.24" y2="-23.876" width="0.1524" layer="20"/>
-<wire x1="-13.462" y1="-25.654" x2="15.24" y2="-25.654" width="0.1524" layer="20"/>
-<wire x1="15.24" y1="-25.654" x2="15.24" y2="21.082" width="0.1524" layer="20"/>
-<hole x="13.335" y="16.891" drill="2"/>
-<hole x="-13.335" y="16.891" drill="2"/>
-<wire x1="-15.24" y1="-23.876" x2="-13.462" y2="-25.654" width="0.1524" layer="20" curve="90"/>
-<hole x="13.335" y="-23.749" drill="2"/>
-<hole x="-13.335" y="-23.749" drill="2"/>
-<wire x1="15.24" y1="21.082" x2="15.24" y2="22.098" width="0.1524" layer="20"/>
-<wire x1="15.24" y1="22.098" x2="15.24" y2="61.976" width="0.1524" layer="20"/>
-<wire x1="13.462" y1="63.754" x2="-13.462" y2="63.754" width="0.1524" layer="20"/>
-<hole x="-13.335" y="21.209" drill="2"/>
-<hole x="13.335" y="21.209" drill="2"/>
-<wire x1="15.24" y1="61.976" x2="13.462" y2="63.754" width="0.1524" layer="20" curve="90"/>
-<wire x1="-13.462" y1="63.754" x2="-15.24" y2="61.976" width="0.1524" layer="20" curve="90"/>
-<hole x="-13.335" y="61.849" drill="2"/>
-<hole x="13.335" y="61.849" drill="2"/>
-</package>
-<package name="TSOC-BB-BRD-PLUS-MIN-DIM">
-<description>&lt;b&gt;thingSoC "Single" PCB Board Outline &amp; Holes&lt;/b&gt;
-&lt;p&gt;
-Source LBR : http://www.thingsoc.com
-&lt;br&gt;
-Github : https://github.com/thingsoc
-&lt;br&gt;
-License : http://creativecommons.org/licenses/by-sa/4.0/
-(Creative Commons 4.0)
-&lt;p&gt;
-THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
-&lt;P&gt;</description>
-<wire x1="15.24" y1="-32.512" x2="15.24" y2="17.272" width="0" layer="20"/>
-<wire x1="13.462" y1="19.05" x2="-13.462" y2="19.05" width="0" layer="20"/>
-<wire x1="-15.24" y1="17.272" x2="-15.24" y2="-32.512" width="0" layer="20"/>
-<hole x="-13.335" y="-23.749" drill="2"/>
-<hole x="13.335" y="-23.749" drill="2"/>
-<wire x1="-13.462" y1="-34.29" x2="13.462" y2="-34.29" width="0" layer="20"/>
-<wire x1="15.24" y1="17.272" x2="13.462" y2="19.05" width="0" layer="20" curve="90"/>
-<wire x1="-13.462" y1="19.05" x2="-15.24" y2="17.272" width="0" layer="20" curve="90"/>
-<wire x1="-15.24" y1="-32.512" x2="-13.462" y2="-34.29" width="0" layer="20" curve="90"/>
-<wire x1="13.462" y1="-34.29" x2="15.24" y2="-32.512" width="0" layer="20" curve="90"/>
-<hole x="-13.335" y="16.891" drill="2"/>
-<hole x="13.335" y="16.891" drill="2"/>
-</package>
 </packages>
 <symbols>
 <symbol name="TSOC-PCB">
@@ -14320,11 +14303,6 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="-PLUSMIN" package="TSOC-BB-BRD-PLUS-MIN-DIM">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="TSOC-LOGO">
@@ -16361,7 +16339,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="5V0" library="PatternAgents-ProtoPads" deviceset="M01" device="PTH"/>
 <part name="U$4" library="thingSoC" deviceset="TSOC-LOGO" device=""/>
-<part name="U1" library="Seeed-IC-2016" deviceset="PMIC-LDO-XC6204B332MR(SOT23-5)" device="" value="XC6204B332MR-SOT23-5"/>
+<part name="U3" library="Seeed-IC-2016" deviceset="PMIC-LDO-XC6204B332MR(SOT23-5)" device="" value="XC6204B332MR-SOT23-5"/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -16487,7 +16465,7 @@ Open Source Sockets for IoT</text>
 <instance part="GND9" gate="1" x="-78.74" y="55.88"/>
 <instance part="5V0" gate="G$1" x="195.58" y="-67.31" rot="R180"/>
 <instance part="U$4" gate="G$1" x="177.8" y="-187.96"/>
-<instance part="U1" gate="G$1" x="123.19" y="-93.98"/>
+<instance part="U3" gate="G$1" x="123.19" y="-93.98"/>
 <instance part="GND10" gate="1" x="123.19" y="-119.38"/>
 </instances>
 <busses>
@@ -16524,8 +16502,8 @@ Open Source Sockets for IoT</text>
 <wire x1="187.96" y1="-67.31" x2="180.34" y2="-67.31" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-67.31" x2="180.34" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="180.34" y="-78.74"/>
-<pinref part="U1" gate="G$1" pin="VIN"/>
-<pinref part="U1" gate="G$1" pin="CE"/>
+<pinref part="U3" gate="G$1" pin="VIN"/>
+<pinref part="U3" gate="G$1" pin="CE"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16671,7 +16649,7 @@ Open Source Sockets for IoT</text>
 <wire x1="-78.74" y1="58.42" x2="-78.74" y2="67.31" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VSS"/>
+<pinref part="U3" gate="G$1" pin="VSS"/>
 <wire x1="123.19" y1="-116.84" x2="123.19" y2="-102.87" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
@@ -16692,7 +16670,7 @@ Open Source Sockets for IoT</text>
 <wire x1="149.86" y1="-86.36" x2="149.86" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="J1" gate="JMP" pin="1"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="VOUT"/>
+<pinref part="U3" gate="G$1" pin="VOUT"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -16760,7 +16738,6 @@ Open Source Sockets for IoT</text>
 <label x="-144.78" y="35.56" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="LED2" gate="G$1" pin="+"/>
 <wire x1="-153.67" y1="35.56" x2="-144.78" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-153.67" y="35.56"/>
 </segment>
 <segment>
 <label x="187.96" y="-83.82" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -16809,20 +16786,18 @@ Open Source Sockets for IoT</text>
 <label x="-165.1" y="175.26" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="LED1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="-102.87" x2="165.1" y2="-106.68" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="+"/>
 </segment>
 </net>
-<net name="LEDR" class="0">
+<net name="LED2" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="-171.45" y1="35.56" x2="-161.29" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="-"/>
-<wire x1="-161.29" y1="35.56" x2="-157.48" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-161.29" y="35.56"/>
 </segment>
 </net>
 <net name="!URST" class="0">
@@ -16858,7 +16833,7 @@ Open Source Sockets for IoT</text>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="-105.41" x2="137.16" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-96.52" x2="133.35" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="NC"/>
+<pinref part="U3" gate="G$1" pin="NC"/>
 </segment>
 </net>
 <net name="P1_2" class="0">
